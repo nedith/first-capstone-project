@@ -53,6 +53,7 @@ const speakers = [
             <div class="speaker-details">
               <p class="name">${speaker.name}</p>
               <p class="work">${speaker.job}</p>
+              <div class="div-item"></div>
               <p class="work-description">${speaker.description}</p>
             </div>
           </li>

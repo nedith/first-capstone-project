@@ -198,3 +198,57 @@
     background-color: #2230d2;
     color: #fff;
   }
+
+  /* Featured speakers section */
+
+.speakers-section{
+  margin-top: 5%
+  
+}
+.featured-speakers {
+    text-align: center;
+    position: relative;
+    padding-bottom: 2%;
+  }
+  
+  .featured-speakers::after {
+    content: '';
+    height: 2px;
+    width: 10%;
+    background: #f35826;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+  }
+  
+  .speakers {
+    list-style-type: none;
+    margin-top: 5%;
+  }
+  
+  .speakers li {
+    display: flex;
+  }
+  
+  .speaker-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .speaker-details {
+    padding-left: 3%;
+  }
+  
+  .name {
+    font-weight: bold;
+  }
+  
+  .work {
+    color: #f35826;
+    font-style: italic;
+  }
+  
+  .work_description {
+    font-size: 95%;
+  }
+  

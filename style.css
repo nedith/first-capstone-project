@@ -1,0 +1,522 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: "lato", sans-serif;
+    min-height: 100vh;
+    background-color: #e5e5e527;
+  }
+
+  #mobile-menu {
+  display: none;
+  }
+
+  /* .social-media {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 150px;
+  background-color: ;
+  } */
+
+  .social-media, .navbar {
+  display: none;
+  }
+
+.box {
+    background: url("./images/home-page.png") no-repeat;
+    background-size: cover;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+
+  .hamburger {
+    border: none;
+    background: transparent;
+    position: relative;
+    margin-top: 8%;
+    padding-left: 5%;
+  }
+
+  .hamburger img {
+  width: 60%;
+  height: 70%;
+  margin-bottom: 80%;
+ 
+  }
+
+  .hello {
+    position: relative;
+    color: #f35826;
+    font-size: 200%;
+    margin-bottom: 0%;
+    padding-left: 5%;
+  }
+  
+  .heading {
+    position: relative;
+    color: #f35826;
+    font-size: 400%;
+    margin-top: 0%;
+    font-weight: bold;
+    padding-left: 5%;
+    /* background-blend-mode: multiply; */
+  }
+  
+  /* intro section */
+  .intro {
+    border: 5px #fff solid;
+    margin-left: 5%;
+    font-size: 110%;
+    margin-right: 15%;
+    font-weight: normal;
+    opacity: 0.7;
+  }
+  
+  .due-date {
+    position: relative;
+    font-weight: bold;
+    color: #585858;
+    font-size: 200%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+    margin-top: 5%;
+  }
+  
+  .venue {
+    color: #222121;
+    margin-left: 5%;
+    font-size: 110%;
+    margin-bottom: 5%;
+    opacity: 0.7;
+  }
+
+  /* Main program section */
+  .program {
+  background: url("./images/main-program.jpg") no-repeat 0, 0 #0a0a0a;;
+  background-size: cover;
+  margin-top: 0%;
+  
+  }
+
+.main-program {
+    position: relative;
+    color: #fff;
+    padding-top: 10%;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.main-program::after {
+    content: '';
+    height: 2px;
+    width: 5%;
+    background: #f35826;
+    position: absolute;
+    bottom: 0;
+    left: 47%;
+  }
+
+  .activities {
+    padding-top: 5%;
+    list-style-type: none;
+    font-size: 90%;
+    opacity: 0.65;
+  }
+  
+  .activity {
+    display: flex;
+    border: none;
+    background-color: #3c3f46;
+    gap: 10px;
+    margin: 2%;
+  }
+  
+  .activities .activity:hover {
+    cursor: pointer;
+    position: relative;
+    border: #fff 2px solid;
+  }
+  
+  .img-activity {
+    padding: 3%;
+    width: 120px;
+    height: 120px;
+    margin-top: 3%;
+    width: 15%;
+    
+  }
+  
+  .description {
+    display: flex;
+    align-items: center;
+    color: #f35826;
+    font-weight: bold;
+    padding-right: 5%;
+    margin-right: 50px;
+    width: 10%;
+  }
+  
+  .explanation {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    
+  }
+
+  .whole-program {
+    display: none;
+  }
+  
+  .program-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .join {
+    padding: 4%;
+    background-color: #f35826;
+    border: none;
+    color: #fff;
+    font-size: 140%;
+    margin: 5%;
+    margin-bottom: 10%;
+  }
+  
+  .join:hover {
+    cursor: pointer;
+  }
+  
+  .join:hover:hover {
+    background-color: #fff;
+    color: #f35826;
+  }
+  
+  .join:hover:active {
+    background-color: #2230d2;
+    color: #fff;
+  }
+
+  /* Featured speakers section */
+
+.speakers-section{
+  margin-top: 5%
+  
+}
+.featured-speakers {
+    text-align: center;
+    position: relative;
+    padding-bottom: 2%;
+  }
+  
+  .featured-speakers::after {
+    content: '';
+    height: 2px;
+    width: 10%;
+    background: #f35826;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+  }
+  
+  .speakers {
+    list-style-type: none;
+    margin-top: 5%;
+  }
+  
+  .speakers li {
+    display: flex;
+  }
+  
+  .speaker-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .speaker-details {
+    padding-left: 3%;
+  }
+  
+  .name {
+    font-weight: bold;
+    padding-bottom: 3%;
+    padding-top: 2%;
+  }
+  
+  .work {
+    color: #f35826;
+    font-style: italic;
+    padding-bottom: 2%;
+  }
+  
+  .div-item {
+    height: 2px;
+    width: 5%;
+    background: grey; 
+    opacity: 0.4;
+    margin-bottom: 3%;
+  }
+  .work_description {
+    font-size: 95%;
+  }
+
+  /* about page */
+
+  .about-box {
+    background: url("./images/home-page.png") no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+
+  }
+  .about-intro {
+    position: relative;
+    margin-left: 5%;
+    font-size: 110%;
+    margin-right: 15%;
+    font-weight: normal;
+  }
+  .mission {
+  position: relative;
+  border: #f2f2f2 2px solid;
+  background-color: #fff;
+  text-align: center;
+  padding: 4%;
+  margin-right: 3%;
+  margin-left: 3%;
+  }
+
+  .contact {
+    position: relative;
+    text-align: center;
+    margin: 10%;
+  }
+  
+  .logo-heading {
+    position: relative;
+    text-align: center;
+    padding-top: 5%;
+    -webkit-box-shadow: 0 -4px 6px -6px #222;
+    -moz-box-shadow: 0 -4px 6px -6px #222;
+    box-shadow: 0 -4px 6px -6px #222;
+    padding-bottom: 2%;
+  }
+  
+  .logo-heading::after {
+    content: '';
+    height: 2px;
+    width: 10%;
+    background: #f35826;
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+  }
+  
+  .logo-creation {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #f2f2f2 2px solid;
+    padding: 5%;
+    margin-right: 3%;
+    margin-left: 3%;
+    margin-top: 5%;
+  }
+  
+  .img-logo {
+    width: 200px;
+  }
+  
+  .summit {
+    font-weight: bold;
+    margin-bottom: 0%;
+  }
+  
+  .logo-text {
+    margin-left: 2%;
+  }
+  
+  .period {
+    border-top: grey solid 1px;
+    border-bottom:grey solid 1px;
+    margin-top: 0%;
+    font-size: 75%;
+  }
+
+  /* past summits section */
+.previous-summits {
+  border-top: #f2f2f2 2px solid;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+
+.previous-heading, .previous-text {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.previous-div {
+  height: 2px;
+  width: 10%;
+  background: #f35826;
+  
+}
+
+.previous-text {
+  text-align: center;
+
+}
+
+.previous-list {
+  list-style-type: none;
+}
+
+.previous-list li {
+  border: none;
+  margin-bottom: 7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 80px;
+  color: #fff;
+  text-align: center;
+}
+
+.twenty-one {
+  background: url("./images/about-summit1.jpg") no-repeat 0, 0 #ec5242;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: ease-in-out 0.5s;
+  margin-top: 20px;
+}
+
+.twenty {
+  background: url("./images/about-summit2.jpg") no-repeat 0, 0 #ec5242;
+  background-blend-mode: multiply;
+  background-size: cover;
+  transition: ease-in-out 0.5s;
+}
+
+.twenty-one:hover,
+.twenty:hover {
+  transform: scale(1.05);
+}
+
+.year {
+  margin-bottom: 0%;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.previous-venue {
+  margin-top: 0%;
+  font-size: 90%;
+  color: #fff;
+}
+
+/* Partners' section */
+.partner-section img {
+  padding-right: 5%;
+}
+
+.partner-section {
+  background: #414246;
+  padding-bottom: 5%;
+  padding-top: 3%;
+}
+
+.partner {
+  position: relative;
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 2%;
+  margin-top: 30px;
+}
+
+.partner::after {
+  content: '';
+  height: 2px;
+  width: 5%;
+  background: #f35826;
+  position: absolute;
+  bottom: 0;
+  left: 47%;
+}
+
+.img-rows {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img-row1 {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.img-row2 {
+  display: flex;
+  gap: 80px;
+}
+
+.partner-img {
+  width: 100px;
+  height: 100px;
+}
+
+/* Footer */
+.mobile-footer {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  padding-left: 1%;
+  padding-right: 1%;
+  background-color: #fff;
+  
+}
+
+.footer-logo {
+  display: flex;
+}
+
+.footer-logo-img {
+  width: 100px;
+  height: 100px;
+  padding-top: 6%;
+}
+
+.summit-finland {
+  font-size: 100%;
+  font-weight: bold;
+  margin-left: 3%;
+  padding-top: 15%;
+
+}
+
+.rights {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 90%;
+  padding-left: 5%;
+  opacity: 0.6;
+  font-weight: bold;
+}

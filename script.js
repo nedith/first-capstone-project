@@ -63,3 +63,25 @@ const speakers = [
   document.addEventListener('DOMContentLoaded', () => {
     createSpeaker();
   });
+
+  // Mobile menu
+const hamburger = document.querySelector('.hamburger');
+const mobileMenu = document.querySelector('.mobile-menu');
+const closeMenu = document.querySelector('.close-button');
+
+  hamburger.addEventListener('click', () => {
+  hamburger.classList.toggle('active');
+  mobileMenu.classList.toggle('active');
+});
+
+document.querySelectorAll('.navigate').forEach((n) => n.addEventListener('click', () => {
+  hamburger.classList.remove('active');
+  mobileMenu.classList.remove('active');
+}));
+
+closeMenu.addEventListener('click', ()=> {
+  mobileMenu.classList.remove('active')
+  hamburger.classList.remove('active')
+});
+
+

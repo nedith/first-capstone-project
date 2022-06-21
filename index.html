@@ -5,28 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Visit Uganda Summit</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
     <link href='https://fonts.googleapis.com/css?family=lato' rel='stylesheet'>
 </head>
 <body>
-    <div class="mobile-menu" id="mobile-menu">
+     <div class="mobile-menu" id="mobile-menu">
         <div class="mobile-menu-header">
-          <button type="button" data-close-button class="close-button">&times;</button>
+          <button type="button"  class="close-button">&times;</button>
         </div>
         <nav>
-          <a href="./index.html" data-close-button class="navigate">
+          <a href="./index.html" class="navigate">
             Home
           </a>
-          <a href="./about.html" data-close-button class="navigate">
+          <a href="./about.html" class="navigate">
             About
           </a>
-          <a href="./index.html#program" data-close-button class="navigate">
+          <a href="./index.html#program"  class="navigate">
             Program
           </a>
-          <a href="#" data-close-button class="navigate">
-            Jobs
+          <a href="#"  class="navigate">
+            Join
           </a>
-          <a href="./about.html#sponsor" data-close-button class="navigate">
+          <a href="./about.html#sponsor" class="navigate">
             Sponsor
           </a>
         </nav>
@@ -42,12 +42,12 @@
           </nav>
         </div>
         <div class="navbar">
-          <div><a href="./index.html"><img class="summit-logo" src="./images/logo.jpg" alt=""></a></div>
+          <div class="navbar-logo-div"><a href="./index.html"><img class="summit-logo" src="./images/logo.jpg" alt=""></a></div>
     
           <nav class="navigation">
             <a href="./about.html">About</a>
             <a href="./index.html#program">Program</a>
-            <a href="">Jobs</a>
+            <a href="#">Jobs</a>
             <a href="#sponsor">Sponsor</a>
             <button class="ug-btn" type="button">UG Campaign</button>
           </nav>
@@ -57,7 +57,7 @@
       </header>
       <main class="main">
         <div class="box">
-        <button type="button" class="hamburger" data-mobile-menu-target="#mobile-menu">
+        <button type="button" class="hamburger">
             <img src="./images/menu.png" alt="menu icon">
           </button>
           <p class="hello">"Hello! Tourism World"</p>
@@ -108,15 +108,33 @@
             </div>
           </section>
 
-          <section class="speakers-section">
+          <section class="speakers-section" id="speakers-section">
             <h3 class="featured-speakers">Featured Speakers</h3>
             <ul class="speakers" id="speakers">
       
             </ul>
           </section>
-          
-
       </main>
+      <section class="partner-section" id="sponsor">
+        <h3 class="partner">Partner</h3>
+        <div class="img-rows">
+          <div class="img-row1"><img class="partner-img" src="./images/cocacola.png" alt="cocacola logo">
+            <img class="partner-img" src="./images/Nile-Special.jpg" alt="Nile special logo">
+            <img class="partner-img" src="./images/UTB LOGO.jpg" alt="UTB logo">
+          </div>
+          <div class="img-row2"><img class="partner-img" src="./images/great-lakes.jpg" alt="great lakes logo">
+            <img class="partner-img" src="./images/ug-airlines.png" alt="Uganda airlines logo"></div>
+        </div>
+      </section>
+      <footer class="desktop-footer">
+        <div class="footer-logo">
+          <img class="footer-logo-img" src="./images/logo.jpg" alt="Visit Uganda logo">
+          <p class="summit-finland">Visit Uganda<br>Summit Finland</p>
+        </div>
+        <div class="rights">2022 Visit Uganda Summit<br>Some rights reserved <br> <br> Lorem ipsum dolor sit amet consectetur adipisicing elit
+           Autem ducimus vero <br> expedita excepturi tempore, maxime id beatae nulla porro quidem?</div>
+      </footer>
+
       <script defer src="script.js"></script>
 </body>
 </html>

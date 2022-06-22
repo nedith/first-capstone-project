@@ -561,12 +561,13 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background: #b226f3;
+  background: #ec5342ec;
   mix-blend-mode: multiply;
-  backdrop-filter: blur(6px);
+  backdrop-filter: blur(10px);
   transition: 200ms ease-in-out;
   transform: scale(0);
   z-index: 10;
+  padding-right: 5%;
 }
 
 .mobile-menu.active {

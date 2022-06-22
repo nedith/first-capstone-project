@@ -44,9 +44,9 @@ const speakers = [
 ];
 
 const createSpeaker = () => {
-const addSpeaker = document.querySelector('#speakers');
+  const addSpeaker = document.querySelector('#speakers');
   speakers.forEach((speaker) => {
-  addSpeaker.insertAdjacentHTML('beforeend',
+    addSpeaker.insertAdjacentHTML('beforeend',
       `
         <li id="0" class="item">
             <div class="speaker-img-div"><img class="speaker-img" src="${speaker.image}" alt=""></div>
@@ -70,7 +70,7 @@ const hamburger = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('.mobile-menu');
 const closeMenu = document.querySelector('.close-button');
 
-  hamburger.addEventListener('click', () => {
+hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   mobileMenu.classList.toggle('active');
 });

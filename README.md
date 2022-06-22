@@ -12,7 +12,8 @@
 
 ## Live Demo 
 
-[Live Demo Link]( https://nedith.github.io/first-capstone-project/)
+- [Live Demo Link]( https://nedith.github.io/first-capstone-project/)
+- Click this [video link](https://www.loom.com/share/6036d82523bf4bf89f2c28e6bfc3c0d8) that explains the features of the page
 
 ## Screenshots
 

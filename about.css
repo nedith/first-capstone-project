@@ -33,7 +33,6 @@
   width: 60%;
   height: 70%;
   margin-bottom: 80%;
- 
   }
 
   .about-intro {
@@ -59,7 +58,6 @@
     margin-top: 0%;
     font-weight: bold;
     padding-left: 5%;
-    /* background-blend-mode: multiply; */
   }
 
   .mission {
@@ -81,7 +79,7 @@
   }
 
   .email {
-   /* border-bottom: 1px solid grey;  */
+   text-decoration: underline;
    font-weight: bold;
    opacity: 0.8;
   }
@@ -90,20 +88,17 @@
     position: relative;
     text-align: center;
     padding-top: 5%;
-    -webkit-box-shadow: 0 -4px 6px -6px #222;
-    -moz-box-shadow: 0 -4px 6px -6px #222;
-    box-shadow: 0 -4px 6px -6px #222;
     padding-bottom: 2%;
   }
   
   .logo-heading::after {
     content: '';
     height: 2px;
-    width: 10%;
+    width: 5%;
     background: #f35826;
     position: absolute;
     bottom: 0;
-    left: 45%;
+    left: 48%;
   }
   
   .logo-creation {
@@ -149,7 +144,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
- 
+
 }
 
 .previous-heading, .previous-text {
@@ -161,7 +156,6 @@
   height: 2px;
   width: 10%;
   background: #f35826;
-  
 }
 
 .previous-text {
@@ -345,7 +339,7 @@
       padding-right: 10%;
       display: flex;
       justify-content: flex-end;
-      padding-top: 0.5%;
+      padding-top: 1%;
       padding-bottom: 0.5%;
     }
   
@@ -354,6 +348,11 @@
       text-decoration: none;
       color: #fff;
       font-size: 85%;
+    }
+
+    .social-nav a img {
+      width: 20px;
+      height: 20px;
     }
 
     .summit-logo {
@@ -378,6 +377,7 @@
     
       .navigation {
         display: flex;
+        align-items: center;
         margin-right:0px;
       }
     
@@ -434,7 +434,18 @@
         margin-left: 30%;
       }
 
+      .period {
+        font-size: 53%; 
+      }
+
     /* previous summits section */
+
+    .previous-div {
+      height: 2px;
+      width: 5%;
+      background: #f35826;
+      
+    }
   .previous-list {
     display: flex;
   }
@@ -455,7 +466,6 @@
   .desktop-footer {
     display: flex;
     justify-content: center;
-    justify-content: space-around;
     padding-top: 5%;
     padding-bottom: 5%;
     background: #414246;

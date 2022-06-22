@@ -63,7 +63,7 @@ const createSpeaker = () => {
               <p class="work-description">${speaker.description}</p>
             </div>
           </li>
-      `
+      `,
     );
   });
 };
@@ -82,12 +82,10 @@ hamburger.addEventListener('click', () => {
   mobileMenu.classList.toggle('active');
 });
 
-document.querySelectorAll('.navigate').forEach((n) =>
-  n.addEventListener('click', () => {
+document.querySelectorAll('.navigate').forEach((n) => n.addEventListener('click', () => {
     hamburger.classList.remove('active');
     mobileMenu.classList.remove('active');
-  })
-);
+  }));
 
 closeMenu.addEventListener('click', () => {
   mobileMenu.classList.remove('active');

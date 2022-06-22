@@ -110,6 +110,8 @@ body {
 .logo-creation {
   text-align: center;
   margin-top: 20px;
+  padding-left: 2%;
+  padding-right: 3%;
 }
 
 .logo-container {
@@ -166,6 +168,8 @@ body {
 
 .previous-text {
   text-align: center;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .previous-list {
@@ -190,9 +194,9 @@ body {
   background-size: contain;
   transition: ease-in-out 0.5s;
   margin-top: 20px;
-  width: 350px;
-  margin-left: 1%;
-  margin-right: 7%;
+  width: 332px;
+  margin-left: 2%;
+  margin-right: 8%;
 }
 
 .twenty {
@@ -201,9 +205,9 @@ body {
   background-size: cover;
   transition: ease-in-out 0.5s;
   margin-top: 20px;
-  width: 350px;
-  margin-left: 1%;
-  margin-right: 7%;
+  width: 332px;
+  margin-left: 2%;
+  margin-right: 8%;
 }
 
 .twenty-one:hover,
@@ -232,6 +236,8 @@ body {
   background: #414246;
   padding-bottom: 5%;
   padding-top: 3%;
+  margin-left: 1%;
+  margin-right: 3%;
 }
 
 .partner {
@@ -261,14 +267,14 @@ body {
 
 .img-row1 {
   display: flex;
-  gap: 50px;
+  gap: 20px;
   margin-bottom: 30px;
   margin-top: 30px;
 }
 
 .img-row2 {
   display: flex;
-  gap: 80px;
+  gap: 40px;
 }
 
 .partner-img {

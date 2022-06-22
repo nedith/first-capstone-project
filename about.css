@@ -187,9 +187,12 @@ body {
   background: url('./images/about-summit1.jpg') no-repeat 0, 0 #ec5242;
   background-blend-mode: multiply;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   transition: ease-in-out 0.5s;
   margin-top: 20px;
+  width: 350px;
+  margin-left: 1%;
+  margin-right: 7%;
 }
 
 .twenty {
@@ -198,6 +201,9 @@ body {
   background-size: cover;
   transition: ease-in-out 0.5s;
   margin-top: 20px;
+  width: 350px;
+  margin-left: 1%;
+  margin-right: 7%;
 }
 
 .twenty-one:hover,

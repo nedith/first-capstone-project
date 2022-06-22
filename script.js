@@ -83,9 +83,9 @@ hamburger.addEventListener('click', () => {
 });
 
 document.querySelectorAll('.navigate').forEach((n) => n.addEventListener('click', () => {
-    hamburger.classList.remove('active');
-    mobileMenu.classList.remove('active');
-  }));
+  hamburger.classList.remove('active');
+  mobileMenu.classList.remove('active');
+}));
 
 closeMenu.addEventListener('click', () => {
   mobileMenu.classList.remove('active');

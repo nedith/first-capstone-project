@@ -6,7 +6,7 @@
 }
 
 body {
-  font-family: "lato", sans-serif;
+  font-family: 'lato', sans-serif;
   min-height: 100vh;
   background-color: #e5e5e527;
 }
@@ -17,9 +17,9 @@ body {
 }
 
 .about-box {
-  background: url("./images/home-page.png") no-repeat;
+  background: url('./images/home-page.png') no-repeat;
   background-size: cover;
-  margin-bottom: 50px;
+  padding-bottom: 3%;
 }
 
 .hamburger {
@@ -38,9 +38,9 @@ body {
 
 .about-intro {
   position: relative;
-  margin-left: 5%;
+  margin-left: 0px;
   font-size: 110%;
-  margin-right: 15%;
+  margin-right: 0px;
   font-weight: normal;
 }
 
@@ -77,6 +77,7 @@ body {
   position: relative;
   text-align: center;
   margin: 10%;
+  /* padding-bottom: 3%; */
 }
 
 .email {
@@ -84,6 +85,11 @@ body {
   font-weight: bold;
   opacity: 0.8;
 }
+
+/* .logo-details {
+  margin-top: 0px;
+  background-color: #f35826;
+} */
 
 .logo-heading {
   position: relative;
@@ -112,7 +118,7 @@ body {
   justify-content: center;
   align-items: center;
   border: #f2f2f2 2px solid;
-  padding: 5%;
+  padding: 2%;
   margin-right: 3%;
   margin-left: 3%;
   margin-top: 5%;
@@ -179,7 +185,7 @@ body {
 }
 
 .twenty-one {
-  background: url("./images/about-summit1.jpg") no-repeat 0, 0 #ec5242;
+  background: url('./images/about-summit1.jpg') no-repeat 0, 0 #ec5242;
   background-blend-mode: multiply;
   background-repeat: no-repeat;
   background-size: cover;
@@ -188,7 +194,7 @@ body {
 }
 
 .twenty {
-  background: url("./images/about-summit2.jpg") no-repeat 0, 0 #ec5242;
+  background: url('./images/about-summit2.jpg') no-repeat 0, 0 #ec5242;
   background-blend-mode: multiply;
   background-size: cover;
   transition: ease-in-out 0.5s;

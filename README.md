@@ -1,62 +1,48 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# HTML/CSS & JavaScript capstone project - Visit Uganda Summit page
 
-> Description the project.
-
+> This Project is about creating a responsive webpage
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- Javascript
 
-## Live Demo (if available)
+## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
-
+[Live Demo Link]( https://nedith.github.io/first-capstone-project/)
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running follow these simple steps below
 
 ### Prerequisites
 
-### Setup
+-Basic HTML & CSS knowledge
+-Basic JavaScript knowledge
 
-### Install
+### Setup
+git clone git@github.com:nedith/first-capstone-project.git
 
 ### Usage
 
-### Run tests
-
-### Deployment
-
-
+Switch to first-capstone-project directory
 
 ## Authors
 
-👤 **Author1**
+👤 **EdithNaisanga**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@nedith](https://github.com/nedith)
+- Twitter: [@edithnaisanga](https://twitter.com/edithnaisanga)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/https://www.linkedin.com/in/edith-naisanga-19396856/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/nedith/first-capstone-project/issues).
 
 ## Show your support
 
@@ -64,9 +50,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Hat tip to Cindy [Shin in Behance](https://www.behance.net/adagio07) whose design I used
 
 ## 📝 License
 

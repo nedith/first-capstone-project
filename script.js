@@ -11,7 +11,7 @@ const speakers = [
     image: './images/pauline.jpeg',
     name: 'Pauline Nahamya',
     job: 'MD Africa One Tours and Travel',
-    description: 'With over 10 years experience in the tourism sector, she has set the pace in the hospitality sector'
+    description: 'With over 10 years experience in the tourism sector, she has set the pace in the hospitality sector',
   },
   {
     id: '2',
@@ -40,14 +40,14 @@ const speakers = [
     name: 'Lily Ajarova',
     job: 'CEO, Uganda Tourism Board',
     description: 'She is an expert in the tourism sector with over 20 years experience. She has been at the forefront of many campaigns for selling Uganda to the outside world',
-    },
-  ];
+  },
+];
 
-  const createSpeaker = () => {
-  const addSpeaker = document.querySelector('#speakers');
-    speakers.forEach((speaker) => {
-      addSpeaker.insertAdjacentHTML('beforeend',
-        `
+const createSpeaker = () => {
+const addSpeaker = document.querySelector('#speakers');
+  speakers.forEach((speaker) => {
+  addSpeaker.insertAdjacentHTML('beforeend',
+      `
         <li id="0" class="item">
             <div class="speaker-img-div"><img class="speaker-img" src="${speaker.image}" alt=""></div>
             <div class="speaker-details">
@@ -58,13 +58,14 @@ const speakers = [
             </div>
           </li>
       `);
-    });
-  };
-  document.addEventListener('DOMContentLoaded', () => {
-    createSpeaker();
   });
+};
 
-  // Mobile menu
+document.addEventListener('DOMContentLoaded', () => {
+createSpeaker();
+});
+
+// Mobile menu
 const hamburger = document.querySelector('.hamburger');
 const mobileMenu = document.querySelector('.mobile-menu');
 const closeMenu = document.querySelector('.close-button');
@@ -79,9 +80,7 @@ document.querySelectorAll('.navigate').forEach((n) => n.addEventListener('click'
   mobileMenu.classList.remove('active');
 }));
 
-closeMenu.addEventListener('click', ()=> {
-  mobileMenu.classList.remove('active')
-  hamburger.classList.remove('active')
+closeMenu.addEventListener('click', () => {
+  mobileMenu.classList.remove('active');
+  hamburger.classList.remove('active');
 });
-
-

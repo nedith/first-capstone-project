@@ -62,7 +62,7 @@ const createSpeaker = () => {
 };
 
 document.addEventListener('DOMContentLoaded', () => {
-createSpeaker();
+  createSpeaker();
 });
 
 // Mobile menu
